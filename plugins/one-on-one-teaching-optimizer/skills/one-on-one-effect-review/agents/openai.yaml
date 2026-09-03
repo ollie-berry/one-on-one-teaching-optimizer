@@ -1,0 +1,4 @@
+interface:
+  display_name: "一对一教学效果评定"
+  short_description: "基于具体 Case 定位、定义并解释一对一教学效果问题"
+  default_prompt: "使用 $one-on-one-effect-review 审查这组一对一教学 Case，并给出具体、可复核的问题定义。"

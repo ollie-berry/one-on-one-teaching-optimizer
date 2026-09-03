@@ -1,0 +1,20 @@
+{
+  "name": "one-on-one-teaching",
+  "interface": {
+    "displayName": "一对一教学优化"
+  },
+  "plugins": [
+    {
+      "name": "one-on-one-teaching-optimizer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/one-on-one-teaching-optimizer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

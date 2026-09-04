@@ -48,13 +48,27 @@ codex plugin add one-on-one-teaching-optimizer@one-on-one-teaching
 .agents/plugins/marketplace.json
 plugins/one-on-one-teaching-optimizer/
 ├── .codex-plugin/plugin.json
-├── shared/context/00_公共知识背景/
-│   ├── 00_寒雪一对一教学公共背景知识_v0.1.md
-│   ├── 01_项目定义、角色与规则优先级.md
-│   └── 10_场景与产品规则/
+├── shared/context/
+│   ├── 00_公共底座/
+│   ├── 10_流程协议/
+│   ├── 30_场景与产品契约/
+│   └── 40_公共业务裁决/
 └── skills/
     ├── one-on-one-effect-review/
+    │   ├── SKILL.md
+    │   └── references/
+    │       ├── 00_效果判断核心/
+    │       ├── 10_审查执行协议/
+    │       ├── 20_条件增量/
+    │       ├── 30_场景效果增量/
+    │       ├── 40_裁决与兜底/
+    │       └── 80_示例/
     └── one-on-one-prompt-optimizer/
+        ├── SKILL.md
+        └── references/
+            ├── 00_Prompt修改核心/
+            ├── 20_条件能力/
+            └── 40_验证与回归/
 ```
 
 本仓库当前未附加开源许可证。

@@ -1,4 +1,4 @@
 interface:
   display_name: "一对一教学 Prompt 修改"
-  short_description: "基于已确认问题定位 Prompt 根因并设计最小修改"
-  default_prompt: "使用 $one-on-one-prompt-optimizer 基于已确认的问题分析当前 Prompt，并给出修改与回归方案。"
+  short_description: "按目标完成 Prompt 修复、结构优化与参考能力迁移"
+  default_prompt: "使用 $one-on-one-prompt-optimizer 判断当前修改模式，保护已有能力，并生成所需的 Prompt 修改或 Candidate。"
